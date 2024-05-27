@@ -1,0 +1,49 @@
+.matchPage {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.matchPage_avatar {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matchPage .MuiAvatar-circular {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.matchPage_details {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.matchPage_details > p {
+  margin-top: 10px;
+}
+
+.matchPage_details > button {
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #ffa38f;
+  color: black;
+}

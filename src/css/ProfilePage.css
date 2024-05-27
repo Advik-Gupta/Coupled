@@ -1,0 +1,64 @@
+.slick-prev {
+  z-index: 1;
+  left: 10px !important;
+}
+
+.slick-next {
+  z-index: 1;
+  right: 10px !important;
+}
+
+.slick-next,
+.slick-prev {
+  transform: scale(1.2) !important;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.userDetails_age {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.userDetails_gender {
+  margin-top: 3px;
+}
+
+.userDetails_school {
+  margin-top: 3px;
+}
+
+.userDetails_living {
+  margin-top: 15px;
+}
+
+.address p {
+  font-size: 16px;
+}
+
+.userDetails_socials {
+  margin-top: 15px;
+}
+
+.twitter_icon {
+  margin-left: 5px;
+}
+
+.insta_icon,
+.twitter_icon {
+  color: black !important;
+}
+
+.userDetails_carousel {
+  margin-top: 0px !important;
+}

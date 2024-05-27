@@ -1,0 +1,47 @@
+.signInForm {
+  max-width: 100vw;
+  max-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.signInForm_logo {
+  width: 80vw;
+}
+
+.signInFormInput {
+  margin-top: 20px !important;
+  width: 80vw !important;
+}
+
+.MuiInputLabel-root {
+  color: #f86d85 !important;
+}
+
+.MuiOutlinedInput-input {
+  color: #f86d85 !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #f86d85 !important;
+}
+
+.MuiSvgIcon-root {
+  color: #f86d85 !important;
+}
+
+.signInForm_submit_button {
+  margin-top: 12px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #ffa38f;
+}

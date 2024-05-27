@@ -1,0 +1,48 @@
+.home {
+  height: fit-content;
+}
+
+.card {
+  position: relative;
+  width: 600px;
+  padding: 20px;
+  max-width: 85vw;
+  height: 60vh;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 18px 18px 53px 0px rgba(0, 0, 0, 0.3);
+}
+
+.cards_container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 2vh 0 2vh 3vh;
+  padding-left: 7.5vw;
+  overflow: hidden;
+}
+
+.swipe {
+  margin-right: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.person_name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.age_and_gender {
+  font-size: 20px;
+  color: rgb(147, 147, 147);
+}
+
+.short_desciption {
+  font-size: 17px;
+}
+
+.no_people_left {
+  margin-left: -3.5vw;
+}

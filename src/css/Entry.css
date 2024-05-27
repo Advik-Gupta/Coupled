@@ -1,0 +1,60 @@
+.entry {
+  max-width: 100vw;
+  max-height: 100vh;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.entry_logo {
+  width: 80vw;
+}
+
+.entry_loginOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.entry_signUpOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.entry_welcomeText {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #f86d85;
+}
+
+.entry_login {
+  margin-bottom: 12px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #f86d85;
+}
+
+.entry_signUp {
+  margin-bottom: 12px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #f86d85;
+}

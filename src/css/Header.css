@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f9f9f9;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  height: 11vh;
+}
+
+.header_logo {
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
+}
+
+.hideChat {
+  visibility: hidden;
+}
+
+.hidden {
+  visibility: hidden;
+}
